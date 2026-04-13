@@ -10,7 +10,7 @@
 
     <!-- Navbar -->
     <nav class="flex justify-between items-center p-6 bg-[#0f2342] shadow-lg border-b-2 border-yellow-400">
-        <h1 class="text-2xl font-bold text-white">HMIT</h1>
+        <h1 class="text-2xl font-bold text-white">HIMPUNAN MAHASISWA INFORMATIKA</h1>
         <div>
             <a href="#" class="mx-3 hover:text-yellow-400">Home</a>
             <a href="#" class="mx-3 hover:text-yellow-400">About</a>
@@ -47,27 +47,51 @@
     <!-- Garis pemisah -->
     <div class="w-full h-1 bg-yellow-400"></div>
 
+    <div class="relative z-10 text-center pt-14 pb-0">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-yellow-400 tracking-wide">
+        DEPARTEMEN
+    </h2>
+    <div class="w-24 h-1 bg-yellow-400 mx-auto mt-3 rounded"></div>
+    </div>
+
     <!-- Features -->
-    <section class="grid md:grid-cols-3 gap-8 px-10 py-16">
-        <div class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 transition">
-            <h3 class="text-xl font-bold mb-3 text-yellow-400">Komunitas</h3>
-            <p class="text-gray-300">Bergabung dengan mahasiswa Informatika yang aktif dan kreatif.</p>
-        </div>
+   <section class="grid md:grid-cols-3 gap-8 px-10 py-16">
 
-        <div class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 transition">
-            <h3 class="text-xl font-bold mb-3 text-yellow-400">Kegiatan</h3>
-            <p class="text-gray-300">Workshop, seminar, dan event teknologi menarik.</p>
-        </div>
+    <a href="#" class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 hover:bg-[#112d5c] transition block">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Pengembangan Wawasan Teknologi Informasi</h3>
+        <p class="text-gray-300">Klik untuk info selengkapnya...</p>
+    </a>
 
-        <div class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 transition">
-            <h3 class="text-xl font-bold mb-3 text-yellow-400">Pengembangan</h3>
-            <p class="text-gray-300">Tingkatkan skill programming dan soft skill.</p>
-        </div>
-    </section>
+    <a href="#" class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 hover:bg-[#112d5c] transition block">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Pengembangan Sumber Daya Mahasiswa</h3>
+        <p class="text-gray-300">Klik untuk info selengkapnya...</p>
+    </a>
+
+    <a href="#" class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 hover:bg-[#112d5c] transition block">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Kesenian dan Olahraga</h3>
+        <p class="text-gray-300">Klik untuk info selengkapnya...</p>
+    </a>
+
+    <a href="#" class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 hover:bg-[#112d5c] transition block">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Ekonomi Kreatif</h3>
+        <p class="text-gray-300">Klik untuk info selengkapnya...</p>
+    </a>
+
+    <a href="#" class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 hover:bg-[#112d5c] transition block">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Media</h3>
+        <p class="text-gray-300">Klik untuk info selengkapnya...</p>
+    </a>
+
+    <a href="#" class="bg-[#0f2342] p-6 rounded-xl shadow-lg border-t-4 border-yellow-400 hover:scale-105 hover:bg-[#112d5c] transition block">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Sosial Masyarakat</h3>
+        <p class="text-gray-300">Klik untuk info selengkapnya...</p>
+    </a>
+
+</section>
 
     <!-- Footer -->
     <footer class="bg-[#0f2342] text-center p-6 border-t-2 border-yellow-400">
-        <p class="text-gray-300">© 2026 HMIT - All Rights Reserved</p>
+        <p class="text-gray-300">© 2026 HMIT - Cuma Buat Belajar</p>
     </footer>
 
 </body>
